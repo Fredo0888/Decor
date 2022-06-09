@@ -223,6 +223,64 @@ header nav li a:hover{
     width: 100%;
 }
 
-
-
+.main_banner_play{
+    background-image: url('../images/Mask_Group.png');
+    background-size: cover;
+    background-color:#4C6071;
+    padding: 60px 165px 95px;
+}
+.main_banner_play .container{
+    max-width: 1110px;
+    margin: auto;
+}
+.main_banner_play h1{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+.rooms_play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 95px;
+}
+.rooms_play .item{
+    width: 255px;
+    height: 100%;
+    position: relative;
+}
+.rooms_play .item img{
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.rooms_play .item h3{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.rooms_play .item p{
+    position: absolute;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.rooms_play .item .play img{
+    position: absolute;
+    left: 97px;
+    bottom: 77px;
+    width: 81px;
+}
 
