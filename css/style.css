@@ -242,6 +242,14 @@ header nav li a:hover{
     line-height: 130%;
     color: #FFFFFF;
 }
+.directions{
+    position: relative;
+    bottom: 15px;
+    right: 60px;
+}
+.directions img:first-of-type{
+    margin-right: 20px;
+}
 .rooms_play{
     display: flex;
     justify-content: space-between;
@@ -284,4 +292,8 @@ header nav li a:hover{
     bottom: 77px;
     width: 81px;
 }
+.owl-carousel .owl-nav .owl-next:before{
+    content: url("../images/direct1.png");
+    width: 100%;
 
+}
