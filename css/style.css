@@ -268,7 +268,6 @@ header nav li a:hover{
     margin-bottom: 20px;
 }
 .rooms_play .item h3{
-    position: absolute;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -277,7 +276,6 @@ header nav li a:hover{
     color: #FFFFFF;
 }
 .rooms_play .item p{
-    position: absolute;
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -286,14 +284,25 @@ header nav li a:hover{
     line-height: 150%;
     color: #FFFFFF;
 }
-.rooms_play .item .play img{
+.play{
     position: absolute;
     left: 97px;
-    bottom: 77px;
+    top: 78px;
     width: 81px;
 }
-.owl-carousel .owl-nav .owl-next:before{
+
+.owl-nav{
+    position:absolute;
+    right: 120px;
+    top: -100px;
+}
+.owl-nav .owl-prev:before{
     content: url("../images/direct1.png");
     width: 100%;
-
+    position: relative;
+    right: 35px;
+}
+.owl-nav .owl-next:before{
+    content: url("../images/direct2.png");
+    width: 100%;
 }
